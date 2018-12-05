@@ -1,0 +1,877 @@
+/* position: pos */
+
+.item {
+  /* poss */
+  position: static;
+  /* posa */
+  position: absolute;
+  /* posr */
+  position: relative;
+  /* posf */
+  position: fixed;
+}
+
+/* top, right, bottom and left: t, r , b and l */
+
+.item {
+  /* t12 */
+  top: 12px;
+  /* r1.5 */
+  right: 1.5em;
+  /* b2r */
+  bottom: 2rem;
+  /* l1x */
+  left: 1ex;
+  /* t10%+r:a+b20p+l:a */
+  top: 10%;
+  right: auto;
+  bottom: 20%;
+  left: auto;
+}
+
+/* z-Index: z */
+
+.item {
+  /* z100 */
+  z-index: 100;
+  /* z:a */
+  z-index: auto;
+}
+
+/* float: fl */
+
+.item {
+  /* fln */
+  float: none;
+  /* fll */
+  float: left;
+  /* flr */
+  float: right;
+}
+
+/* clear: cl */
+
+.item {
+  /* cln */
+  clear: none;
+  /* cll */
+  clear: left;
+  /* clr */
+  clear: right;
+  /* clb */
+  clear: both;
+}
+
+/* display: d */
+
+.item {
+  /* dn */
+  display: none;
+  /* db */
+  display: block;
+  /* df */
+  display: flex;
+  /* di */
+  display: inline;
+  /* dib */
+  display: inline-block;
+  /* dif */
+  display: inline-flex;
+  /* dt */
+  display: table;
+  /* dth */
+  display: table-header-group;
+  /* dtr */
+  display: table-row;
+  /* dtc */
+  display: table-cell;
+}
+
+/* visibility: v */
+
+.item {
+  /* vv */
+  visibility: visible;
+  /* vh */
+  visibility: hidden;
+  /* vc */
+  visibility: collapse;
+}
+
+/* overflow, overflow-x and overflow-y: ov, ovx and ovy */
+
+.item {
+  /* ova */
+  overflow: auto;
+  /* ovxv */
+  overflow-x: visible;
+  /* ovyh */
+  overflow-y: hidden;
+  /* ov:s */
+  overflow: scroll;
+  /* ovxh+ovya */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* zoom: zoo or zm */
+
+.item {
+  /* zoo2 */
+  zoom: 2;
+  /* zm0.5 */
+  zoom: 0.5;
+}
+
+/* resize: rsz (or rs) */
+
+.item {
+  /* rszn */
+  resize: none;
+  /* rszb */
+  resize: both;
+  /* rszh */
+  resize: horizontal;
+  /* rszv */
+  resize: vertical;
+}
+
+/* cursor: cur (or cu or cr) */
+
+.item {
+  /* cura */
+  cursor: auto;
+  /* curd */
+  cursor: default;
+  /* curc */
+  cursor: crosshair;
+  /* curha */
+  cursor: hand;
+  /* curhe */
+  cursor: help;
+  /* curm */
+  cursor: move;
+  /* curp */
+  cursor: pointer;
+  /* curt */
+  cursor: text;
+}
+
+/* margin, margin-top, margin-right, margin-bottom and margin-left: m, mt, mr, mb and ml
+  padding, padding-top, padding-right, padding-bottom and padding-left: p, pt, pr, pb and pl */
+
+.item {
+  /* m-8-12-4--20 */
+  margin: -8px 12px 4px -20px;
+  /* ml:a+mr:a */
+  margin-left: auto;
+  margin-right: auto;
+  /* mt1e+mb1.5 */
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  /* p1x2r10p-5 */
+  padding: 1ex 2rem 10% -5px;
+  /* pl1r+pr1.25r */
+  padding-left: 1rem;
+  padding-right: 1.25rem;
+  /* pt2x+pb2.5x */
+  padding-top: 2ex;
+  padding-bottom: 2.5ex;
+}
+
+/* box-sizing: bxz (or bz) */
+
+.item {
+  /* bxzcb (or bzc or bxc) */
+  box-sizing: content-box;
+  /* bxzbb (or bzb or bxb) */
+  box-sizing: border-box;
+}
+
+/* box-shadow: bxsh (or bsh or bh) */
+
+.item {
+  /* bxshn (bshn or bhn) */
+  box-shadow: none;
+}
+
+/* width, min-width and max-width: w, maw and miw
+  height, min-height and max-height: h, mah and mih */
+
+.item {
+  /* w400 */
+  width: 400px;
+  /* maw80e */
+  max-width: 80em;
+  /* miw20r */
+  min-width: 20rem;
+  /* h500 */
+  height: 500px;
+  /* mah60x */
+  max-height: 60ex;
+  /* mih30p */
+  min-height: 30%;
+  /* w:a+h:a */
+  width: auto;
+  height: auto;
+}
+
+/* font: f */
+
+.item {
+  /* f12-se */
+  font: 12px serif;
+  /* f1e-ss */
+  font: 1em sans-serif;
+  /* f1.5-c */
+  font: 1.5em cursive;
+  /* f2r-f */
+  font: 2rem fantasy;
+  /* f2.5x-m */
+  font: 2.5ex monospace;
+  /* f10p-ar */
+  font: 10% Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* f:v */
+  font: Verdana, Geneva, sans-serif;
+}
+
+/* font-weight: fw */
+
+.item {
+  /* fw600 */
+  font-weight: 600;
+  /* fwn */
+  font-weight: normal;
+  /* fwb */
+  font-weight: bold;
+  /* fwbr */
+  font-weight: bolder;
+  /* fwlr */
+  font-weight: lighter;
+}
+
+/* font-style: fs */
+
+.item {
+  /* fsn */
+  font-style: normal;
+  /* fsi */
+  font-style: italic;
+  /* fso */
+  font-style: oblique;
+}
+
+/* font-variant: fv */
+
+.item {
+  /* fvn */
+  font-variant: normal;
+  /* fv:sc */
+  font-variant: small-caps;
+}
+
+/* font-size: fz */
+
+.item {
+  /* fz12 */
+  font-size: 12px;
+  /* fs1.5 */
+  font-style: 1.5em;
+}
+
+/* font-family: ff */
+
+.item {
+  /* ffs */
+  font-family: serif;
+  /* ffss */
+  font-family: sans-serif;
+  /* ffc */
+  font-family: cursive;
+  /* fff */
+  font-family: fantasy;
+  /* ffm */
+  font-family: monospace;
+  /* ffa */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* fft */
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  /* ffv */
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* font-stretch: fst */
+
+.item {
+  /* fstn */
+  font-stretch: normal;
+  /* fstc */
+  font-stretch: condensed;
+  /* fstuc */
+  font-stretch: ultra-condensed;
+  /* fstec */
+  font-stretch: extra-condensed;
+  /* fstsc */
+  font-stretch: semi-condensed;
+  /* fste */
+  font-stretch: expanded;
+  /* fstue */
+  font-stretch: ultra-expanded;
+  /* fstee */
+  font-stretch: extra-expanded;
+  /* fstse */
+  font-stretch: semi-expanded;
+}
+
+/* vertical-align: va */
+
+.item {
+  /* vasup */
+  vertical-align: super;
+  /* vat */
+  vertical-align: top;
+  /* vatt */
+  vertical-align: text-top;
+  /* vam */
+  vertical-align: middle;
+  /* vabl */
+  vertical-align: baseline;
+  /* vab */
+  vertical-align: bottom;
+  /* vatb */
+  vertical-align: text-bottom;
+  /* vasub */
+  vertical-align: sub;
+  /* vasub */
+  vertical-align: sub;
+}
+
+/* text-align: ta */
+
+.item {
+  /* ta:l */
+  text-align: left;
+  /* tar */
+  text-align: right;
+  /* tac */
+  text-align: center;
+  /* taj */
+  text-align: justify;
+}
+
+/* text-align-last: tal */
+
+.item {
+  /* tal:a */
+  text-align-last: auto;
+  /* tall */
+  text-align-last: left;
+  /* talc */
+  text-align-last: center;
+  /* talr */
+  text-align-last: right;
+}
+
+/* text-decoration: td */
+
+.item {
+  /* tdn */
+  text-decoration: none;
+  /* tdu */
+  text-decoration: underline;
+  /* tdo */
+  text-decoration: overline;
+  /* tdl */
+  text-decoration: line-through;
+}
+
+/* text-indent: ti */
+
+.item {
+  /* ti12 */
+  text-indent: 12px;
+  /* ti1e */
+  text-indent: 1em;
+  /* ti1.5 */
+  text-indent: 1.5em;
+  /* ti2r */
+  text-indent: 2rem;
+  /* ti2.5x */
+  text-indent: 2.5ex;
+  /* ti10p */
+  text-indent: 10%;
+}
+
+/* text-transform: tt */
+
+.item {
+  /* ttn */
+  text-transform: none;
+  /* ttc */
+  text-transform: capitalize;
+  /* ttu */
+  text-transform: uppercase;
+  /* ttl */
+  text-transform: lowercase;
+}
+
+/* text-shadow: tsh */
+
+.item {
+  /* tsh */
+  text-shadow: hoff voff blur #000;
+}
+
+/* line-height: lh */
+
+.item {
+  /* lh1.5 */
+  line-height: 1.5;
+  /* lh20px */
+  line-height: 20px;
+}
+
+/* letter-spacing: lts (or ls) */
+
+.item {
+  /* ltsn */
+  letter-spacing: normal;
+  /* lts-1 */
+  letter-spacing: -1px;
+  /* lts0.2 */
+  letter-spacing: 0.2em;
+}
+
+/* white-space: whs */
+
+.item {
+  /* whsn */
+  white-space: normal;
+  /* whsp */
+  white-space: pre;
+  /* whsnw */
+  white-space: nowrap;
+  /* whspw */
+  white-space: pre-wrap;
+  /* whspl */
+  white-space: pre-line;
+}
+
+/* word-break: wob (or wb) */
+
+.item {
+  /* wobn */
+  word-break: normal;
+  /* wobk */
+  word-break: keep-all;
+  /* wobb */
+  word-break: break-all;
+}
+
+/* word-spacing: wos (or ws) */
+
+.item {
+  /* wos2 */
+  word-spacing: 2px;
+  /* wos-1 */
+  word-spacing: -1px;
+}
+
+/* word-wrap: wow */
+
+.item {
+  /* wown */
+  word-wrap: none;
+  /* wownm */
+  word-wrap: normal;
+  /* wowu */
+  word-wrap: unrestricted;
+  /* wows */
+  word-wrap: suppress;
+  /* wowb */
+  word-wrap: break-word;
+}
+
+/* background: bg */
+
+.item {
+  /* bg#f */
+  background: #ffffff;
+  /* bg#c2 */
+  background: #c2c2c2;
+  /* bg#afb */
+  background: #aaffbb;
+  /* bg#a49c5a */
+  background: #a49c5a;
+}
+
+/* background-color: bgc (or bc) */
+
+.item {
+  /* bgc#f */
+  background-color: #ffffff;
+  /* bgc#c2 */
+  background-color: #c2c2c2;
+  /* bgc#afb */
+  background-color: #aaffbb;
+  /* bgc#a49c5a */
+  background-color: #a49c5a;
+}
+
+/* background-image: bgi (or bi) */
+
+.item {
+  /* bgi */
+  background-image: url();
+}
+
+/* background-repeat: bgr (or br) */
+
+.item {
+  /* bgrn */
+  background-repeat: no-repeat;
+  /* bgrrx */
+  background-repeat: repeat-x;
+  /* bgrry */
+  background-repeat: repeat-y;
+  /* bgrs */
+  background-repeat: space;
+  /* bgrr */
+  background-repeat: round;
+}
+
+/* background-attachment: bga (or ba) */
+
+.item {
+  /* bgaf */
+  background-attachment: fixed;
+  /* bgas */
+  background-attachment: scroll;
+}
+
+/* background-position, background-position-x and background-position-y: bgp (or bp), bgpx (or bpx) and pgpy (or bpy) */
+
+.item {
+  /* bgp12-24 */
+  background-position: 12px 24px;
+  /* bgpx:1e */
+  background-position-x: 1em;
+  /* bgpy20p */
+  background-position-y: 20%;
+}
+
+/* background-clip: bgcp */
+
+.item {
+  /* bgcpb */
+  background-clip: border-box;
+  /* bgcpp */
+  background-clip: padding-box;
+  /* bgcpc */
+  background-clip: content-box;
+  /* bgcpn */
+  background-clip: no-clip;
+}
+
+/* background-origin: bgo (or bo) */
+
+.item {
+  /* bgop */
+  background-origin: padding-box;
+  /* bgob */
+  background-origin: border-box;
+  /* bgoc */
+  background-origin: content-box;
+}
+
+/* background-size: bgsz (or bgz) */
+
+.item {
+  /* bgsz:a */
+  background-size: auto;
+  /* bgszct */
+  background-size: contain;
+  /* bgszcv */
+  background-size: cover;
+}
+
+/* color: c */
+
+.item {
+  /* c#0 */
+  color: #000000;
+  /* c#23 */
+  color: #232323;
+  /* c#abc */
+  color: #aabbcc;
+  /* c#af750c */
+  color: #af750c;
+}
+
+/* opacity: op */
+
+.item {
+  /* op0.5 */
+  opacity: 0.5;
+}
+
+/* content: cnt or ct */
+
+.item {
+  /* ctn */
+  content: normal;
+  /* cto */
+  content: open-quote;
+  /* ctnq */
+  content: no-open-quote;
+  /* ctcq */
+  content: close-quote;
+  /* ctnc */
+  content: no-close-quote;
+  /* cta */
+  content: attr();
+  /* ctc */
+  content: counter();
+}
+
+/* quotes: q */
+
+.item {
+  /* qr */
+  quotes: '\00AB' '\00BB' '\201E' '\201C';
+  /* qe */
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+
+/* counter-increment: coi (or ci) */
+
+.item {
+  /* coi:myCounter */
+  counter-increment: myCounter;
+}
+
+/* counter-reset: cor */
+
+.item {
+  /* cor:myCounter */
+  counter-reset: myCounter;
+}
+
+/* outline: ol */
+
+.item {
+  /* ol:none */
+  outline: none;
+}
+
+/* outline-offset: olo */
+
+.item {
+  /* olo12 */
+  outline-offset: 12px;
+  /* olo0.5 */
+  outline-offset: 0.5em;
+}
+
+/* outline-style: ols */
+
+.item {
+  /* olsn */
+  outline-style: none;
+  /* olsdt */
+  outline-style: dotted;
+  /* olsds */
+  outline-style: dashed;
+  /* olss */
+  outline-style: solid;
+  /* olsdb */
+  outline-style: double;
+  /* olsg */
+  outline-style: groove;
+  /* olsr */
+  outline-style: ridge;
+  /* olsi */
+  outline-style: inset;
+  /* olso */
+  outline-style: outset;
+}
+
+/* ouline-color: olc */
+
+.item {
+  /* olci */
+  outline-color: invert;
+  /* olc#a */
+  outline-color: #aaaaaa;
+  /* olc#bd */
+  outline-color: #bdbdbd;
+  /* olc#ef0 */
+  outline-color: #eeff00;
+  /* olc#fabc5d */
+  outline-color: #fabc5d;
+}
+
+/* table-layout: tbl (or tl) */
+
+.item {
+  /* tbl:a */
+  table-layout: auto;
+  /* tblf */
+  table-layout: fixed;
+}
+
+/* caption-side: cps (or cs) */
+
+.item {
+  /* cpst */
+  caption-side: top;
+  /* cpsb */
+  caption-side: bottom;
+}
+
+/* empty-cells: ec (or e) */
+
+.item {
+  /* ecs */
+  empty-cells: show;
+  /* ech */
+  empty-cells: hide;
+}
+
+/* border: bd, border-top: bdt, border-right: bdr, border-bottom: bdb, border-left: bdl */
+
+.item {
+  /* bd */
+  border: 1px solid #000;
+  /* bd:n */
+  border: none;
+  /* bdt */
+  border-top: 1px solid #000;
+  /* bdr */
+  border-right: 1px solid #000;
+  /* bdb */
+  border-bottom: 1px solid #000;
+  /* bdl */
+  border-left: 1px solid #000;
+}
+
+/* border-collapse: bdcl (or bcl) */
+
+.item {
+  /* bdclc */
+  border-collapse: collapse;
+  /* bdcls */
+  border-collapse: separate;
+}
+
+/* border-color: bdc, border-top-color: bdtc, border-right-color: bdrc, border-bottom-color: bdbc, border-left-color: bdlc */
+
+.item {
+  /* bdc */
+  border-color: #000;
+  /* bdtc#e */
+  border-top-color: #eeeeee;
+  /* bdrc#ef */
+  border-right-color: #efefef;
+  /* bdbc#efc */
+  border-bottom-color: #eeffcc;
+  /* bdlc#efcadb */
+  border-left-color: #efcadb;
+}
+
+/* border-image: bdi */
+
+.item {
+  /* bdi */
+  border-image: url();
+}
+
+/* border-style: bds, border-top-style: bdts, border-right-style: bdrs, border-bottom-style: bdbs, border-left-style: bdls */
+
+.item {
+  /* bds:n */
+  border-style: none;
+  /* bdtsh */
+  border-style: hidden;
+  /* bdsdt */
+  border-style: dotted;
+  /* bdsds */
+  border-style: dashed;
+  /* bdss */
+  border-style: solid;
+  /* bdsdb */
+  border-style: double;
+  /* bdsdd */
+  border-style: dot-dash;
+  /* bdsw */
+  border-style: wave;
+  /* bdsg */
+  border-style: groove;
+  /* bdsr */
+  border-style: ridge;
+  /* bdsi */
+  border-style: inset;
+  /* bdso */
+  border-style: outset;
+}
+
+/* border-width: bdw, border-top-width: bdtw, border-right-width: bdrw, border-bottom-width: bdbw, border-left-width: bdlw */
+
+.item {
+  /* bdw2 */
+  border-width: 2px;
+  /* bdtw1e */
+  border-top-width: 1em;
+  /* bdrw1.2r */
+  border-right-width: 1.2rem;
+  /* bdbw2x */
+  border-bottom-width: 2ex;
+  /* bdlw4p */
+  border-left-width: 4%;
+}
+
+/* border-radius: bdrs, border-top-right-radius: bdtrrs, border-top-left-radius: bdtlrs, border-bottom-right-radius: bdbrrs, border-bottom-left-radius: bdblrs */
+
+.item {
+  /* bdrs2-3-4-2 */
+  border-radius: 2px 3px 4px 2px;
+  /* bdtrrs0.5 */
+  border-top-right-radius: 0.5em;
+  /* bdtlrs0.4r */
+  border-top-left-radius: 0.4rem;
+  /* bdbrrs0.3x */
+  border-bottom-right-radius: 0.3ex;
+  /* bdblrs9p */
+  border-bottom-left-radius: 9%;
+}
+
+/* list-style-position: lisp (or lp) */
+
+.item {
+  /* lispi */
+  list-style-position: inside;
+  /* lispo */
+  list-style-position: outside;
+}
+
+/* list-style-type: list (or lst) */
+
+.item {
+  /* listd */
+  list-style-type: disc;
+  /* listc */
+  list-style-type: circle;
+  /* lists */
+  list-style-type: square;
+  /* listde */
+  list-style-type: decimal;
+  /* listl */
+  list-style-type: lower-roman;
+  /* listu */
+  list-style-type: upper-roman;
+}
+
+.important {
+  /* m0! */
+  margin: 0 !important;
+}

@@ -1,0 +1,25 @@
+.quotes {
+  quotes: '[' ']' '{' '}';
+}
+
+.quotes::before {
+  content: open-quote;
+}
+
+.quotes::after {
+  content: close-quote;
+}
+
+.with-label::before {
+  content: attr(data-label);
+}
+
+.with-counter {
+  list-style-type: none;
+  counter-reset: myCounter;
+}
+
+.with-counter li::before {
+  counter-increment: myCounter;
+  content: counter(myCounter)
+}
