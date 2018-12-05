@@ -74,6 +74,66 @@
 </form>
 ```
 
+### CSS
+
+```css
+/* Values with units */
+.item {
+  /* m-8-12-4--20 */
+  margin: -8px 12px 4px -20px;
+  /* ml:a+mr:a */
+  margin-left: auto;
+  margin-right: auto;
+  /* mt1e+mb1.5 */
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  /* p1x2r10p-5 */
+  padding: 1ex 2rem 10% -5px;
+  /* pl1r+pr1.25r */
+  padding-left: 1rem;
+  padding-right: 1.25rem;
+  /* pt2x+pb2.5x */
+  padding-top: 2ex;
+  padding-bottom: 2.5ex;
+}
+
+/* Color values */
+.item {
+  /* bg#f */
+  background: #ffffff;
+  /* bg#c2 */
+  background: #c2c2c2;
+  /* bg#afb */
+  background: #aaffbb;
+  /* bg#a49c5a */
+  background: #a49c5a;
+}
+
+/* Unit-less properties */
+.item {
+  /* op0.5 */
+  opacity: 0.5;
+  /* z100 */
+  z-index: 100;
+  /* z:a */
+  z-index: auto;
+}
+
+/* !important modifier */
+.item {
+  /* m0! */
+  margin: 0 !important;
+}
+
+/* Vendor prefixes */
+.item {
+  /* -bxsh */
+  -webkit-box-shadow: inset hoff voff blur #000;
+  -moz-box-shadow: inset hoff voff blur #000;
+  box-shadow: inset hoff voff blur #000;
+}
+```
+
 ## References
 
 1. [Emmet in Visual Studio Code](https://code.visualstudio.com/docs/editor/emmet)

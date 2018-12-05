@@ -11,7 +11,7 @@
   position: fixed;
 }
 
-/* top, right, bottom and left: t, r , b and l */
+/* top: t, right: r, bottom: b, left: l */
 
 .item {
   /* t12 */
@@ -98,7 +98,7 @@
   visibility: collapse;
 }
 
-/* overflow, overflow-x and overflow-y: ov, ovx and ovy */
+/* overflow: ov, overflow-x: ovx, overflow-y: ovy */
 
 .item {
   /* ova */
@@ -157,8 +157,8 @@
   cursor: text;
 }
 
-/* margin, margin-top, margin-right, margin-bottom and margin-left: m, mt, mr, mb and ml
-  padding, padding-top, padding-right, padding-bottom and padding-left: p, pt, pr, pb and pl */
+/* margin: m, margin-top: mt, margin-right: mr, margin-bottom: mb, margin-left: ml
+  padding: p, padding-top: pt, padding-right: pr, padding-bottom: pb, padding-left: pl */
 
 .item {
   /* m-8-12-4--20 */
@@ -195,8 +195,8 @@
   box-shadow: none;
 }
 
-/* width, min-width and max-width: w, maw and miw
-  height, min-height and max-height: h, mah and mih */
+/* width: w, min-width: miw, max-width: maw
+  height: h, min-height: mih, max-height: mah */
 
 .item {
   /* w400 */
@@ -549,7 +549,7 @@
   background-attachment: scroll;
 }
 
-/* background-position, background-position-x and background-position-y: bgp (or bp), bgpx (or bpx) and pgpy (or bpy) */
+/* background-position: bgp (or bp), background-position-x: bgpx (or bpx), background-position-y: pgpy (or bpy) */
 
 .item {
   /* bgp12-24 */
