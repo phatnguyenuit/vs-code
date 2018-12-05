@@ -1,5 +1,5 @@
 .quotes {
-  quotes: '[' ']' '{' '}';
+  quotes: "[" "]" "{" "}";
 }
 
 .quotes::before {
@@ -21,5 +21,60 @@
 
 .with-counter li::before {
   counter-increment: myCounter;
-  content: counter(myCounter)
+  content: counter(myCounter);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 600px;
+  height: 560px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fffbeb;
+  border: 1px solid #772200;
+}
+
+.child {
+  width: 120px;
+  height: 120px;
+  margin: 4px;
+  background-color: #ffbb22;
+  border: 1px solid #aa7700;
+}
+
+.child-1 {
+  height: 60px;
+}
+
+.child-2 {
+  height: 160px;
+}
+
+.child-3 {
+  height: 120px;
+}
+
+.child-4 {
+  height: 160px;
+}
+
+.child-5 {
+  height: 80px;
+}
+
+.child-6 {
+  height: 100px;
+}
+
+.child-7 {
+  height: 180px;
+}
+
+.child-8 {
+  height: 140px;
 }

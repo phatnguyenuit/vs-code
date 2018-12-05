@@ -638,9 +638,9 @@
 
 .item {
   /* qr */
-  quotes: '\00AB' '\00BB' '\201E' '\201C';
+  quotes: "\00AB" "\00BB" "\201E" "\201C";
   /* qe */
-  quotes: '\201C' '\201D' '\2018' '\2019';
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 /* counter-increment: coi (or ci) */
@@ -871,7 +871,302 @@
   list-style-type: upper-roman;
 }
 
-.important {
+/* align-content: ac */
+
+.item {
+  /* acc */
+  align-content: center;
+  /* acfe */
+  align-content: flex-end;
+  /* acfs */
+  align-content: flex-start;
+  /* acs */
+  align-content: stretch;
+  /* acsa */
+  align-content: space-around;
+  /* acsb */
+  align-content: space-between;
+}
+
+/* align-items: ai */
+
+.item {
+  /* aib */
+  align-items: baseline;
+  /* aic */
+  align-items: center;
+  /* aife */
+  align-items: flex-end;
+  /* aifs */
+  align-items: flex-start;
+  /* ais */
+  align-items: stretch;
+}
+
+/* animation: anim (or an) */
+
+.item {
+  /* anim */
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+
+/* animation-delay: animdel (or andl) */
+
+.item {
+  /* animdel0.2s */
+  animation-delay: 0.2s;
+  /* animdel300ms */
+  animation-delay: 300ms;
+}
+
+/* animation-direction: animdir (or andi) */
+
+.item {
+  /* animdira */
+  animation-direction: alternate;
+  /* animdirars */
+  animation-direction: alternate-reverse;
+  /* animdirn */
+  animation-direction: normal;
+  /* animdirr */
+  animation-direction: reverse;
+}
+
+/* animation-duration: animdur (or andu) */
+
+.item {
+  /* animdur0.4s */
+  animation-duration: 0.4s;
+  /* animdur250ms */
+  animation-duration: 250ms;
+}
+
+/* animation-fill-mode: animfm (or anfm) */
+
+.item {
+  /* animfmba */
+  animation-fill-mode: backwards;
+  /* animfmbo */
+  animation-fill-mode: both;
+  /* animfmf */
+  animation-fill-mode: forwards;
+}
+
+/* animation-iteration-count: animic (anic) */
+
+.item {
+  /* animic */
+  animation-iteration-count: 1;
+  /* animici */
+  animation-iteration-count: infinite;
+}
+
+/* animation-play-state: animps (anps) */
+
+.item {
+  /* animpsp */
+  animation-play-state: paused;
+  /* animpsr */
+  animation-play-state: running;
+}
+
+/* animation-timing-function: animtf (or antf) */
+
+.item {
+  /* animtfc */
+  animation-timing-function: cubic-bezier(0.1, 0.7, 1, 1);
+  /* animtfe */
+  animation-timing-function: ease;
+  /* animtfei */
+  animation-timing-function: ease-in;
+  /* animtfeio */
+  animation-timing-function: ease-in-out;
+  /* animtfeo */
+  animation-timing-function: ease-out;
+  /* animtfl */
+  animation-timing-function: linear;
+}
+
+/* align-self: as */
+
+.item {
+  /* asa */
+  align-self: auto;
+  /* asb */
+  align-self: baseline;
+  /* asc */
+  align-self: center;
+  /* asfe */
+  align-self: flex-end;
+  /* asfs */
+  align-self: flex-start;
+  /* ass */
+  align-self: stretch;
+}
+
+/* backface-visibility: bfv (or bv) */
+
+.item {
+  /* bfvh */
+  backface-visibility: hidden;
+  /* bfvv */
+  backface-visibility: visible;
+}
+
+/* flex-direction: fxd */
+
+.item {
+  /* fxdc */
+  flex-direction: column;
+  /* fxdcr */
+  flex-direction: column-reverse;
+  /* fxdr */
+  flex-direction: row;
+  /* fxdrr */
+  flex-direction: row-reverse;
+}
+
+/* flex-wrap: fxw */
+
+.item {
+  /* fxwn */
+  flex-wrap: nowrap;
+  /* fxww */
+  flex-wrap: wrap;
+  /* fxw:wv */
+  flex-wrap: wrap-reverse;
+}
+
+/* justify-content: jc */
+
+.item {
+  /* jcc */
+  justify-content: center;
+  /* jcfe */
+  justify-content: flex-end;
+  /* jcfs */
+  justify-content: flex-start;
+  /* jcsa */
+  justify-content: space-around;
+  /* jcsb */
+  justify-content: space-between;
+}
+
+/* orientation: ori */
+
+.item {
+  /* oril */
+  orientation: landscape;
+  /* orip */
+  orientation: portrait;
+}
+
+/* text-overflow: tov */
+
+.item {
+  /* tovc */
+  text-overflow: clip;
+  /* tove */
+  text-overflow: ellipsis;
+}
+
+/* transform: trf (or tf) */
+
+.item {
+  /* trfr */
+  transform: rotate(angle);
+  /* trfrx */
+  transform: rotateX(angle);
+  /* trfry */
+  transform: rotateY(angle);
+  /* trfrz */
+  transform: rotateZ(angle);
+  /* trf:sc */
+  transform: scale(x, y);
+  /* trf:scx */
+  transform: scaleX(x);
+  /* trf:scy */
+  transform: scaleY(y);
+  /* trf:scz */
+  transform: scaleZ(z);
+  /* trf:skx */
+  transform: skewX(angle);
+  /* trf:sky */
+  transform: skewY(angle);
+  /* trft */
+  transform: translate(x, y);
+  /* trftx */
+  transform: translateX(x);
+  /* trfty */
+  transform: translateY(y);
+  /* trftz */
+  transform: translateZ(z);
+}
+
+/* transition: trs */
+
+.item {
+  /* trs */
+  transition: prop time;
+}
+
+/* transition-delay: trsde */
+
+.item {
+  /* trsde0.5s */
+  transition-delay: 0.5s;
+  /* trsde250ms */
+  transition-delay: 250ms;
+}
+
+/* transition-duration: trsdu */
+
+.item {
+  /* trsdu0.4s */
+  transition-duration: 0.4s;
+  /* trsdu600ms */
+  transition-duration: 600ms;
+}
+
+/* transition-property: trsp */
+
+.item {
+  /* trsp */
+  transition-property: prop;
+}
+
+/* transition-timing-function: trstf */
+
+.item {
+  /* trstf */
+  transition-timing-function: fn;
+}
+
+/* writing-mode: wm */
+
+.item {
+  /* wmbtl */
+  writing-mode: bt-lr;
+  /* wmbtr */
+  writing-mode: bt-rl;
+  /* wmlrb */
+  writing-mode: lr-bt;
+  /* wmlrt */
+  writing-mode: lr-tb;
+  /* wmrlb */
+  writing-mode: rl-bt;
+  /* wmrlt */
+  writing-mode: rl-tb;
+  /* wmtbl */
+  writing-mode: tb-lr;
+  /* wmtbr */
+  writing-mode: tb-rl;
+}
+
+/* !important: ! */
+
+.item {
   /* m0! */
   margin: 0 !important;
 }

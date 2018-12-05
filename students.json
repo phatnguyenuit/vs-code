@@ -1,0 +1,24 @@
+[
+  {
+    "id": "23",
+    "name": "George",
+    "yob": 2002,
+    "isChosen": true,
+    "marks": [
+      8,
+      2,
+      5
+    ]
+  },
+  {
+    "id": "23",
+    "name": "George",
+    "yob": 2002,
+    "isChosen": true,
+    "marks": [
+      4,
+      4,
+      5
+    ]
+  }
+]
