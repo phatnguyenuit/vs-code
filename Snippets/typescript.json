@@ -1,0 +1,10 @@
+{
+  "For range": {
+    "prefix": "forr",
+    "body": [
+      "for (let ${1:index} = 0; $1 < ${2:count}; ++$1) {",
+      "\t$0",
+      "}"
+    ]
+  }
+}
