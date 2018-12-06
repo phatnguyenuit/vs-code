@@ -56,7 +56,11 @@
 
 1. Close All: ⌘K ⌘W
 
+1. Close others: ⌥⌘T
+
 1. Reopen closed editor: ⇧⌘T
+
+1. Keep preview mode editor open: ⌘K Enter
 
 1. Copy path of active file: ⌘K P
 
@@ -281,8 +285,6 @@
 1. Clear the terminal: ⌘K
 
 1. Rename terminal sessions: using **Terminal: Rename** command
-
-### Display
 
 ### Git integration: ⌃⇧G
 
