@@ -4,13 +4,19 @@
 
 ### Basics
 
-1. Command Palette: ⇧⌘P
+1. Command Palette: F1 or ⇧⌘P
 
 1. Quick Open: ⌘P
 
     - Open multiple files from Quick Open by pressing the Right arrow key
 
 ### Command line
+
+### Window
+
+1. New window: ⇧⌘N
+
+1. Close window: ⌘W
 
 ### Status Bar
 
@@ -28,27 +34,67 @@
 
 1. Go to Extensions view: ⇧⌘X
 
-### Files and folders
-
-1. Toggle Sidebar: ⌘B
-
-1. Zen mode: ⌘K Z
+### Editor
 
 1. Side by side editing: ⌘\
 
 1. Switch between editors: ⌘1, ⌘2, ⌘3
 
-1. Move to Explorer window: ⇧⌘E
+### Files and folders
 
-1. Close the currently opened folder: ⌘W
+1. New File: ⌘N
 
-1. Navigation history
+1. Open File: ⌘O
 
-    - Navigate entire history: ⌃Tab
+1. Save: ⌘S
 
-    - Navigate back: ⌃-
+1. Save As: ⇧⌘S
 
-    - Navigate forward: ⌃⇧-
+1. Save All: ⌥⌘S
+
+1. Close: ⌘W
+
+1. Close All: ⌘K ⌘W
+
+1. Reopen closed editor: ⇧⌘T
+
+1. Copy path of active file: ⌘K P
+
+1. Reveal active file in Explorer: ⌘K R
+
+1. Show active file in new window/instance: ⌘K O
+
+### Display
+
+1. Toggle full screen: ⌃⌘F
+
+1. Toggle editor layout (horizontal/vertical): ⌥⌘0
+
+1. Zoom in/out: ⌘= / ⇧⌘-
+
+1. Toggle Sidebar visibility: ⌘B
+
+1. Show Explorer / Toggle focus: ⇧⌘E
+
+1. Show Search: ⇧⌘F
+
+1. Show Source Control: ⌃⇧G
+
+1. Show Debug: ⇧⌘D
+
+1. Show Extensions: ⇧⌘X
+
+1. Replace in files: ⇧⌘H
+
+1. Toggle Search details: ⇧⌘J
+
+1. Show Output panel: ⇧⌘U
+
+1. Open Markdown preview: ⇧⌘V
+
+1. Open Markdown preview to the side: ⌘K V
+
+1. Zen Mode (Esc Esc to exit): ⌘K Z
 
 ### Editing hacks
 
@@ -58,7 +104,11 @@
 
     - Set cursors above or below the current position: ⌥⌘↑ or ⌥⌘↓
 
+    - Insert cursor at end of each line selected: ⇧⌥I
+
     - Add cursors to all occurrences of the current selection: ⇧⌘L
+
+    - Select all occurrences of current word: ⌘F2
 
     - Add cursor to the next occurrence after the one you selected: ⌘D
 
@@ -74,9 +124,19 @@
 
     - Column Select Right: ⇧⌥⌘→
 
-1. Copy line up/down: ⇧⌥↑ or ⇧⌥↓
+1. Lines
 
-1. Move line up/down: ⌥↑ or ⌥↓
+    - Select current line: ⌘I
+
+    - Delete the entire line with ⇧⌘K
+
+    - Copy line up/down: ⇧⌥↑ or ⇧⌥↓
+
+    - Move line up/down: ⌥↑ or ⌥↓
+
+    - Insert line below/above: ⌘Enter / ⇧⌘Enter
+
+    - Indent/outdent line: ⌘] / ⌘[
 
 1. Expand/shrink selection: ⌃⇧⌘→ or ⌃⇧⌘←
 
@@ -87,6 +147,16 @@
     - Currently selected source code: ⌘K ⌘F
 
     - Whole document: ⇧⌥F
+
+1. Comments
+
+    - Add line comment: ⌘K ⌘C
+
+    - Remove line comment: ⌘K ⌘U
+
+    - Toggle line comment: ⌘/
+
+    - Toggle block comment: ⇧⌥A
 
 1. Folding
 
@@ -114,18 +184,13 @@
 
     - Unfold all marker regions: ⌘K ⌘9
 
-
-1. Select current line: ⌘I
-
-1. Markdown preview:
-  
-    - Open Markdown preview: ⇧⌘V
-
-    - Side by side Markdow edit and preview: ⌘K V
+1. Toggle word wrap: ⌥Z
 
 ### IntelliSense
 
 1. Trigger Suggestions widget: ⌃Space
+
+1. Trigger parameter hints: ⇧⌘Space
 
 ### Refactor
 
@@ -137,11 +202,33 @@
 
 1. Rename all occurrences: ⌘F2
 
+### Search and replace
+
+1. Find: ⌘F
+
+1. Replace: ⌥⌘F
+
+1. Find next or previous: ⌘G or ⇧⌘G
+
+1. Select all occurrences of Find match: ⌥Enter
+
+1. Add selection to next Find match: ⌘D
+
+1. Move last selection to next Find match: ⌘K ⌘D
+
 ### Navigation
+
+1. Navigate group history: ⌃Tab and ⌃⇧Tab
+
+1. Navigate back: ⌃-
+
+1. Navigate forward: ⌃⇧-
 
 1. Go to definition: F12 or Cmd+click
 
 1. Peek definition: ⌥F12
+
+1. Open Definition to the side: ⌘K F12
 
 1. See the type definition: press Cmd when hovering over the type
 
@@ -157,7 +244,11 @@
 
 1. Go to Symbol in Workspace: ⌘T
 
+1. Go to Line: ⌃G
+
 1. Jump to the matching bracket: ⇧⌘\
+
+1. Navigate to beginning and end of file: ⌘→ and ⌘←
 
 1. Navigate to beginning and end of file: ⌘↑ and ⌘↓
 
@@ -191,7 +282,7 @@
 
 1. Rename terminal sessions: using **Terminal: Rename** command
 
-### Snippets
+### Display
 
 ### Git integration: ⌃⇧G
 
@@ -217,11 +308,15 @@
 
     - Stop: ⇧F5
 
+    - Show hover: ⌘K ⌘I
+
 1. Start without debugging: ⌃F5
 
 1. Breakpoints
 
     - Normal breakpoints
+
+        - Use F9
 
         - Click on the editor margin
 
@@ -246,14 +341,6 @@
     - Righclick on the editor margin and choose **Add Logpoint...**
 
     - Use **Debug: Add Logpoint...** command
-
-### Accessibility
-
-1. Zoom
-
-    - Zoom in: ⌘=
-
-    - Zoom out: ⌘-
 
 ### Task runner
 

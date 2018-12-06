@@ -8,9 +8,9 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/ts.ts",
+      "program": "${workspaceFolder}/playground/ts.ts",
       "outFiles": [
-        "${workspaceFolder}/build/**/*.js"
+        "${workspaceFolder}/playground/build/**/*.js"
       ]
     }
   ]
