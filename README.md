@@ -352,6 +352,8 @@
 
 ### Live Share
 
+### IntelliCode
+
 ## References
 
 1. [Visual Studio Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
@@ -375,3 +377,5 @@
 1. [What is Visual Studio Live Share?](https://docs.microsoft.com/en-us/visualstudio/liveshare/)
 
 1. [Introducing Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share)
+
+1. [IntelliCode for TypeScript/JavaScript](https://blogs.msdn.microsoft.com/typescript/2018/12/05/intellicode-for-typescript-javascript/)
