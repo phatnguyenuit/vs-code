@@ -1,0 +1,40 @@
+# Extensions
+
+- .ejs
+- Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+- C/C++
+- CSS Formatter
+- Debugger for Chrome
+- Docker
+- DotENV
+- ES7
+- ES7 React/Redux/GraphQL/React-Native snippets
+- ESLint
+- Fast Open HTML in Default Browser
+- Git History
+- GitLens - Git supercharged
+- Go
+- GraphQL for VSCode
+- Handlebars
+- HTML CSS Support
+- Import Cost
+- IntelliSense for CSS class names in HTML
+- jQuery Code Snippets
+- markdownlint
+- npm
+- npm Intellisense
+- Paste JSON as Code
+- Pug (Jade) snippets
+- Pug beatify
+- Sass
+- SCSS Formatter
+- SCSS IntelliSensse
+- SVG
+- TODO Highlight
+- Todo+
+- TSLint
+- VS Live Share
+- VSCode Great Icons
+- vscode-icons
+- webpack
+- Webpack Snippets

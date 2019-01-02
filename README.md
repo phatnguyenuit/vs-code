@@ -286,6 +286,16 @@
 
 1. Rename terminal sessions: using **Terminal: Rename** command
 
+### Working with JSON
+
+1. Create TypeScript declarations from JSON
+
+1. Copy JSON text to clipboard
+
+1. Create a TypeScript file
+
+1. Parse: ⇧⌥⌘V or **Paste JSON as Types** command
+
 ### Git integration: ⌃⇧G
 
 ### Debugging
