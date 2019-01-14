@@ -38,3 +38,4 @@
 - vscode-icons
 - webpack
 - Webpack Snippets
+- Prettier
