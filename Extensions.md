@@ -32,7 +32,7 @@
 - SVG
 - TODO Highlight
 - Todo+
-- TSLint
+- TypeScript TSLint Plugin
 - VS Live Share
 - VSCode Great Icons
 - vscode-icons
