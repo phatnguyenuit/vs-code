@@ -19,6 +19,7 @@
 - HTML CSS Support
 - Import Cost
 - IntelliSense for CSS class names in HTML
+- Jest
 - jQuery Code Snippets
 - markdownlint
 - npm
