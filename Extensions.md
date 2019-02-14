@@ -2,7 +2,11 @@
 
 - .ejs
 - Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+- Auto Close Tag
+- Auto Rename Tag
 - C/C++
+- Code Spell Checker
+- Color Highlight
 - CSS Formatter
 - Debugger for Chrome
 - Docker
@@ -21,6 +25,7 @@
 - IntelliSense for CSS class names in HTML
 - Jest
 - jQuery Code Snippets
+- Live Server
 - markdownlint
 - npm
 - npm Intellisense
@@ -29,7 +34,7 @@
 - Pug beatify
 - Sass
 - SCSS Formatter
-- SCSS IntelliSensse
+- SCSS IntelliSense
 - SVG
 - TODO Highlight
 - Todo+
