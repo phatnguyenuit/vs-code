@@ -2,8 +2,8 @@
 
 - .ejs
 - Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
-- Auto Close Tag
 - Auto Rename Tag
+- Bracket Pair Colorizer 2
 - C/C++
 - Code Spell Checker
 - Color Highlight
@@ -30,12 +30,16 @@
 - npm
 - npm Intellisense
 - Paste JSON as Code
+- Prettier
 - Pug (Jade) snippets
 - Pug beatify
+- REST Client
 - Sass
 - SCSS Formatter
 - SCSS IntelliSense
+- Settings Sync
 - SVG
+- SVG Viewer
 - TODO Highlight
 - Todo+
 - TypeScript TSLint Plugin
@@ -44,4 +48,3 @@
 - vscode-icons
 - webpack
 - Webpack Snippets
-- Prettier
