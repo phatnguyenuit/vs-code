@@ -2,6 +2,7 @@
 
 - .ejs
 - Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+- Apollo GraphQL
 - Auto Rename Tag
 - Bracket Pair Colorizer 2
 - C/C++
