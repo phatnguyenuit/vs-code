@@ -23,6 +23,7 @@
 - Handlebars
 - HTML CSS Support
 - Import Cost
+- indent-rainbow
 - IntelliSense for CSS class names in HTML
 - Jest
 - jQuery Code Snippets
