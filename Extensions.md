@@ -17,6 +17,7 @@
 - ESLint
 - Fast Open HTML in Default Browser
 - Git History
+- gitignore
 - GitLens - Git supercharged
 - Go
 - GraphQL for VSCode
