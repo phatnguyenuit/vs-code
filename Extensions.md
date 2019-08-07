@@ -41,6 +41,7 @@
 - SCSS Formatter
 - SCSS IntelliSense
 - Settings Sync
+- Sort JSON objects
 - SVG
 - SVG Viewer
 - TODO Highlight
