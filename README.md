@@ -1,5 +1,15 @@
 # VISUAL STUDIO CODE
 
+## Setup Fonts
+
+1. Install [Fira Code](https://github.com/tonsky/FiraCode) font
+1. Update settings
+
+   ```json
+   "editor.fontFamily": "Fira Code",
+   "editor.fontLigatures": true,
+   ```
+
 ## Categories
 
 ### Basics
@@ -8,7 +18,7 @@
 
 1. Quick Open: ⌘P
 
-    - Open multiple files from Quick Open by pressing the Right arrow key
+   - Open multiple files from Quick Open by pressing the Right arrow key
 
 ### Command line
 
@@ -104,43 +114,43 @@
 
 1. Multi-cursor selection
 
-    - Add cursors at arbitrary positions: Option+Click
+   - Add cursors at arbitrary positions: Option+Click
 
-    - Set cursors above or below the current position: ⌥⌘↑ or ⌥⌘↓
+   - Set cursors above or below the current position: ⌥⌘↑ or ⌥⌘↓
 
-    - Insert cursor at end of each line selected: ⇧⌥I
+   - Insert cursor at end of each line selected: ⇧⌥I
 
-    - Add cursors to all occurrences of the current selection: ⇧⌘L
+   - Add cursors to all occurrences of the current selection: ⇧⌘L
 
-    - Select all occurrences of current word: ⌘F2
+   - Select all occurrences of current word: ⌘F2
 
-    - Add cursor to the next occurrence after the one you selected: ⌘D
+   - Add cursor to the next occurrence after the one you selected: ⌘D
 
-    - Undo cursor position: ⌘U
+   - Undo cursor position: ⌘U
 
 1. Colume (box) selection: holding Shift+Option while dragging your mouse
 
-    - Column Select Down: ⇧⌥⌘↓
+   - Column Select Down: ⇧⌥⌘↓
 
-    - Column Select Up: ⇧⌥⌘↑
+   - Column Select Up: ⇧⌥⌘↑
 
-    - Column Select Left: ⇧⌥⌘←
+   - Column Select Left: ⇧⌥⌘←
 
-    - Column Select Right: ⇧⌥⌘→
+   - Column Select Right: ⇧⌥⌘→
 
 1. Lines
 
-    - Select current line: ⌘I
+   - Select current line: ⌘I
 
-    - Delete the entire line with ⇧⌘K
+   - Delete the entire line with ⇧⌘K
 
-    - Copy line up/down: ⇧⌥↑ or ⇧⌥↓
+   - Copy line up/down: ⇧⌥↑ or ⇧⌥↓
 
-    - Move line up/down: ⌥↑ or ⌥↓
+   - Move line up/down: ⌥↑ or ⌥↓
 
-    - Insert line below/above: ⌘Enter / ⇧⌘Enter
+   - Insert line below/above: ⌘Enter / ⇧⌘Enter
 
-    - Indent/outdent line: ⌘] / ⌘[
+   - Indent/outdent line: ⌘] / ⌘[
 
 1. Expand/shrink selection: ⌃⇧⌘→ or ⌃⇧⌘←
 
@@ -148,45 +158,45 @@
 
 1. Code formating
 
-    - Currently selected source code: ⌘K ⌘F
+   - Currently selected source code: ⌘K ⌘F
 
-    - Whole document: ⇧⌥F
+   - Whole document: ⇧⌥F
 
 1. Comments
 
-    - Add line comment: ⌘K ⌘C
+   - Add line comment: ⌘K ⌘C
 
-    - Remove line comment: ⌘K ⌘U
+   - Remove line comment: ⌘K ⌘U
 
-    - Toggle line comment: ⌘/
+   - Toggle line comment: ⌘/
 
-    - Toggle block comment: ⇧⌥A
+   - Toggle block comment: ⇧⌥A
 
 1. Folding
 
-    - Fold regions of source code using the folding icons on the gutter
+   - Fold regions of source code using the folding icons on the gutter
 
-    - Use Shift+Click on the folding icon to fold/unfold the region and all regions inside
+   - Use Shift+Click on the folding icon to fold/unfold the region and all regions inside
 
-    - Fold the innermost un-collapsed region at the cursor: ⌥⌘[
+   - Fold the innermost un-collapsed region at the cursor: ⌥⌘[
 
-    - Unfold the collapsed region at the cursor: ⌥⌘]
+   - Unfold the collapsed region at the cursor: ⌥⌘]
 
-    - Fold  the innermost un-collapsed region at the cursor and all regions inside that region: ⌘K ⌘[
+   - Fold the innermost un-collapsed region at the cursor and all regions inside that region: ⌘K ⌘[
 
-    - Unfold the region at the cursor and all regions inside that region: ⌘K ⌘]
+   - Unfold the region at the cursor and all regions inside that region: ⌘K ⌘]
 
-    - Fold all regions in the editor: ⌘K ⌘0
+   - Fold all regions in the editor: ⌘K ⌘0
 
-    - Unfold all regions in the editor: ⌘K ⌘J
+   - Unfold all regions in the editor: ⌘K ⌘J
 
-    - Fold all regions of level X, except the region at the current cursor position: ⌘K ⌘2 for level 2
+   - Fold all regions of level X, except the region at the current cursor position: ⌘K ⌘2 for level 2
 
-    - Fold all regions that start with a block comment token: ⌘K ⌘/
+   - Fold all regions that start with a block comment token: ⌘K ⌘/
 
-    - Fold all marker regions: ⌘K ⌘8
+   - Fold all marker regions: ⌘K ⌘8
 
-    - Unfold all marker regions: ⌘K ⌘9
+   - Unfold all marker regions: ⌘K ⌘9
 
 1. Toggle word wrap: ⌥Z
 
@@ -244,7 +254,7 @@
 
 1. Go to Symbol in File: ⇧⌘O
 
-    You can group the symbols by kind by adding a colon: @:
+   You can group the symbols by kind by adding a colon: @:
 
 1. Go to Symbol in Workspace: ⌘T
 
@@ -258,9 +268,9 @@
 
 1. Errors and warnings
 
-    - Display the PROBLEMS panel: ⇧⌘M
+   - Display the PROBLEMS panel: ⇧⌘M
 
-    - Quickly jump to errors and warnings in the project: F8 or ⇧F8
+   - Quickly jump to errors and warnings in the project: F8 or ⇧F8
 
 ### Integrated Terminal
 
@@ -270,17 +280,17 @@
 
 1. Terminal Splitting: ⌘\
 
-    - Focus Previous Pane: ⌥⌘←
+   - Focus Previous Pane: ⌥⌘←
 
-    - Focus Next Pane: ⌥⌘→
+   - Focus Next Pane: ⌥⌘→
 
-    - Resize Pane Left: ⌃⌘←
+   - Resize Pane Left: ⌃⌘←
 
-    - Resize Pane Right: ⌃⌘→
+   - Resize Pane Right: ⌃⌘→
 
-    - Resize Pane Up: ⌃⌘↑
+   - Resize Pane Up: ⌃⌘↑
 
-    - Resize Pane Down: ⌃⌘↓
+   - Resize Pane Down: ⌃⌘↓
 
 1. Clear the terminal: ⌘K
 
@@ -308,51 +318,51 @@
 
 1. Debug actions
 
-    - Start/continue debugging: F5
+   - Start/continue debugging: F5
 
-    - Step over: F10
+   - Step over: F10
 
-    - Step into: F11
+   - Step into: F11
 
-    - Step out: ⇧F11
+   - Step out: ⇧F11
 
-    - Restart: ⇧⌘F5
+   - Restart: ⇧⌘F5
 
-    - Stop: ⇧F5
+   - Stop: ⇧F5
 
-    - Show hover: ⌘K ⌘I
+   - Show hover: ⌘K ⌘I
 
 1. Start without debugging: ⌃F5
 
 1. Breakpoints
 
-    - Normal breakpoints
+   - Normal breakpoints
 
-        - Use F9
+     - Use F9
 
-        - Click on the editor margin
+     - Click on the editor margin
 
-        - Use **Debug: Toggle Breakpoint** command
+     - Use **Debug: Toggle Breakpoint** command
 
-    - Conditional breakpoints
+   - Conditional breakpoints
 
-        - Use the **Add Conditional Breakpoint** action on the editor margin
+     - Use the **Add Conditional Breakpoint** action on the editor margin
 
-        - Use the **Edit Breakpoint** action for existing breakpoints
+     - Use the **Edit Breakpoint** action for existing breakpoints
 
-        - Use **Debug: Add Conditional Breakpoint...** command
+     - Use **Debug: Add Conditional Breakpoint...** command
 
-    - Inline breakpoints
+   - Inline breakpoints
 
-        - Use ⇧F9
+     - Use ⇧F9
 
-        - Use **Debug: Inline Breakpoint** command
+     - Use **Debug: Inline Breakpoint** command
 
 1. Logpoints
 
-    - Righclick on the editor margin and choose **Add Logpoint...**
+   - Righclick on the editor margin and choose **Add Logpoint...**
 
-    - Use **Debug: Add Logpoint...** command
+   - Use **Debug: Add Logpoint...** command
 
 ### Task runner
 
@@ -389,3 +399,7 @@
 1. [Introducing Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share)
 
 1. [IntelliCode for TypeScript/JavaScript](https://blogs.msdn.microsoft.com/typescript/2018/12/05/intellicode-for-typescript-javascript/)
+
+1. [Fira Code](https://github.com/tonsky/FiraCode)
+
+1. [Fira Code - VS Code Instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
