@@ -6,6 +6,7 @@
 - Auto Rename Tag
 - Bracket Pair Colorizer 2
 - C/C++
+- change-case
 - Code Spell Checker
 - Color Highlight
 - CSS Formatter
@@ -32,10 +33,13 @@
 - markdownlint
 - npm
 - npm Intellisense
+- Partial Diff
 - Paste JSON as Code
+- Path Intellisense
 - Prettier
 - Pug (Jade) snippets
 - Pug beatify
+- Regex Previewer
 - REST Client
 - Sass
 - SCSS Formatter
@@ -46,9 +50,14 @@
 - SVG Viewer
 - TODO Highlight
 - Todo+
+- Turbo Console Log
 - TypeScript TSLint Plugin
 - VS Live Share
 - VSCode Great Icons
 - vscode-icons
 - webpack
 - Webpack Snippets
+
+## References
+
+1. [VS Code Extensions For Web Dev Productivity](https://medium.com/better-programming/vs-code-extension-for-web-dev-productivity-fa541654161f)
