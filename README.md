@@ -10,6 +10,12 @@
    "editor.fontLigatures": true,
    ```
 
+## Keyboard Shortcuts Reference
+
+- [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+- [MacOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+
 ## Categories
 
 ### Basics
